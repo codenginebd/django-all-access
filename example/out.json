@@ -1,0 +1,102 @@
+[
+{
+    "pk": null, 
+    "model": "allaccess.provider", 
+    "fields": {
+        "name": "facebook", 
+        "authorization_url": "https://www.facebook.com/dialog/oauth", 
+        "consumer_secret": "1588cf721d35b4fb7ec8a8a675e47ef5", 
+        "access_token_url": "https://graph.facebook.com/oauth/access_token", 
+        "request_token_url": "", 
+        "consumer_key": "296297133723063", 
+        "profile_url": "https://graph.facebook.com/me"
+    }
+},
+{
+    "pk": null, 
+    "model": "allaccess.provider", 
+    "fields": {
+        "name": "twitter", 
+        "authorization_url": "https://api.twitter.com/oauth/authenticate", 
+        "consumer_secret": "H9HcH7fbh64h5PrCh1MSJ6uJPjLhMjDSO0B173nSbE", 
+        "access_token_url": "https://api.twitter.com/oauth/access_token", 
+        "request_token_url": "https://api.twitter.com/oauth/request_token", 
+        "consumer_key": "DjzXCLCnsJxvCUne6prK8g", 
+        "profile_url": "https://api.twitter.com/1.1/account/verify_credentials.json"
+    }
+},
+{
+    "pk": null, 
+    "model": "allaccess.provider", 
+    "fields": {
+        "name": "github", 
+        "authorization_url": "https://github.com/login/oauth/authorize", 
+        "consumer_secret": "75711c23872ea4e1e5518f2ba54fd1502e5b178e", 
+        "access_token_url": "https://github.com/login/oauth/access_token", 
+        "request_token_url": "", 
+        "consumer_key": "a691cb1dae10954a616a", 
+        "profile_url": "https://api.github.com/user"
+    }
+},
+{
+    "pk": null, 
+    "model": "allaccess.provider", 
+    "fields": {
+        "name": "bitbucket", 
+        "authorization_url": "https://bitbucket.org/api/1.0/oauth/authenticate/", 
+        "consumer_secret": "34cvVHqB27mQ8gBgxDqpWuc69FFrQSkU", 
+        "access_token_url": "https://bitbucket.org/api/1.0/oauth/access_token/", 
+        "request_token_url": "https://bitbucket.org/api/1.0/oauth/request_token/", 
+        "consumer_key": "c85ppE36Ld2G7rXY8e", 
+        "profile_url": "https://api.bitbucket.org/1.0/user/"
+    }
+},
+{
+    "pk": 3, 
+    "model": "allaccess.accountaccess", 
+    "fields": {
+        "created": "2012-12-20T01:39:24.570Z", 
+        "access_token": "oauth_token=30490517-RXGKDVwo2U8OAEZzKPQIEBd6rqufziSDEzsBJTU&oauth_token_secret=4zRkr1dtopNdm1FxBHeDzAhoq6tEcvWNdsPmagIc0&user_id=30490517&screen_name=DrOhYes", 
+        "modified": "2012-12-20T01:39:24.570Z", 
+        "user": [
+            "vH2vyJY2_-7s9qMLC8QatX4iUuI"
+        ], 
+        "provider": [
+            "twitter"
+        ], 
+        "identifier": "30490517"
+    }
+},
+{
+    "pk": 4, 
+    "model": "allaccess.accountaccess", 
+    "fields": {
+        "created": "2013-01-02T04:16:42.508Z", 
+        "access_token": "access_token=AAAENew1nTbcBAJqcK92ocH0rZAqdcBQ4Oz69yNVnJrx8jIGmnDf167oZCevauZAPCAMOO29KY8CBcvYjEjJnimrb7HZAMf4ZD&expires=5111138", 
+        "modified": "2013-01-02T04:16:42.508Z", 
+        "user": [
+            "8PwMH5cOaoDKf2kMg4xXVMFd_3E"
+        ], 
+        "provider": [
+            "facebook"
+        ], 
+        "identifier": "818758"
+    }
+},
+{
+    "pk": 5, 
+    "model": "allaccess.accountaccess", 
+    "fields": {
+        "created": "2013-01-03T01:40:05.297Z", 
+        "access_token": "access_token=b4388f6749e0d99b6f99145d440d605820cc0dc8&token_type=bearer", 
+        "modified": "2013-01-03T01:40:05.297Z", 
+        "user": [
+            "8SsPv41KAFOPayzIWCJJjkvJf08"
+        ], 
+        "provider": [
+            "github"
+        ], 
+        "identifier": "149057"
+    }
+}
+]
